@@ -41,7 +41,7 @@
                 <StackLayout x:Name="stackLayout">
                     
 
-                    <Label Text="1min後に通知させる"
+                    <Label Text="30分後に通知させる"
            TextColor="Red"
            HorizontalOptions="Center"
            VerticalOptions="Start"/>
@@ -52,7 +52,7 @@
             Clicked="oneButtonClicked" />
                     
 
-                    <Label Text="2min後に通知させる"
+                    <Label Text="1時間後に通知させる"
            TextColor="Red"
            HorizontalOptions="Center"
            VerticalOptions="Start"/>
@@ -62,7 +62,7 @@
             VerticalOptions="Start"
             Clicked="twoButtonClicked" />
 
-                    <Label Text="3min後に通知させる"
+                    <Label Text="1時間30分後に通知させる"
            TextColor="Red"
            HorizontalOptions="Center"
            VerticalOptions="Start"/>
@@ -72,7 +72,7 @@
             VerticalOptions="Start"
             Clicked="threeeButtonClicked" />
 
-                    <Label Text="4min後に通知させる"
+                    <Label Text="2時間後に通知させる"
            TextColor="Red"
            HorizontalOptions="Center"
            VerticalOptions="Start"/>

@@ -73,9 +73,9 @@ namespace NavPageSample
         {
 
             notificationNumber++;
-            string title = $"通知しますた #{notificationNumber}";
-            string message = $"お薬飲もう {notificationNumber} ね!";
-            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(1));
+            string title = $"通知しました #{notificationNumber}";
+            string message = $"お薬飲みましょう!";
+            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(30));
             var msg = new Label()
             {
                 Text = $"Schedule Notification send:\nTitle: {title}\nMessage: {message}"
@@ -87,9 +87,9 @@ namespace NavPageSample
         {
 
             notificationNumber++;
-            string title = $"通知しますた #{notificationNumber}";
-            string message = $"お薬飲もう {notificationNumber} ね!";
-            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(2));
+            string title = $"通知しました #{notificationNumber}";
+            string message = $"お薬飲みましょう!";
+            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(60));
             var msg = new Label()
             {
                 Text = $"Schedule Notification send:\nTitle: {title}\nMessage: {message}"
@@ -101,9 +101,9 @@ namespace NavPageSample
         {
 
             notificationNumber++;
-            string title = $"通知しますた #{notificationNumber}";
-            string message = $"お薬飲もう {notificationNumber} ね!";
-            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(3));
+            string title = $"通知しました #{notificationNumber}";
+            string message = $"お薬飲みましょう!";
+            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(90));
             var msg = new Label()
             {
                 Text = $"Schedule Notification send:\nTitle: {title}\nMessage: {message}"
@@ -115,9 +115,9 @@ namespace NavPageSample
         {
 
             notificationNumber++;
-            string title = $"通知しますた #{notificationNumber}";
-            string message = $"お薬飲もう {notificationNumber} ね!";
-            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(4));
+            string title = $"通知しました #{notificationNumber}";
+            string message = $"お薬飲みましょう!";
+            notificationManager.SendNotification(title, message, DateTime.Now.AddMinutes(120));
             var msg = new Label()
             {
                 Text = $"Schedule Notification send:\nTitle: {title}\nMessage: {message}"
