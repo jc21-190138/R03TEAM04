@@ -94,7 +94,7 @@ namespace NavPageSample.page
                         enquete.Weight = int.Parse(Weight_Entry.Text);
 
                         enquete.Tabako = Tabako_Entry.Text;
-                        enquete.Drinking = Drinking_Entry.Text;
+                        enquete.Drinking = Drinking_Entry.Text;　　　　　　　　　　　　　　　
                         enquete.Taking_history = Taking_History_Entry.Text;
 
                         //平日の
