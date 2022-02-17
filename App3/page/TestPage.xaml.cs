@@ -4,7 +4,7 @@ using NavPageSample.notification;
 using Xamarin.Forms;
 using NavPageSample.page;
 
-namespace NavPageSample.page
+namespace NavPageSample
 {
 
     public partial class TestPage : ContentPage

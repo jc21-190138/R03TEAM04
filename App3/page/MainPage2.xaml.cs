@@ -35,6 +35,12 @@ namespace NavPageSample
 
         }
 
+        private void Button13_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TestPage());
+
+        }
+
 
 
     }
