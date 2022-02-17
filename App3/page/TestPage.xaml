@@ -42,7 +42,7 @@
                 <Button Text="Create Notification"
             HorizontalOptions="Center"
             VerticalOptions="Start"
-             />
+            Clicked="OnNotifyButtonClicked" />
 
                 <Label Text="Click the button below to schedule a local notification for in 10 seconds time."
            TextColor="Red"
@@ -52,7 +52,7 @@
                 <Button Text="Create Notification"
             HorizontalOptions="Center"
             VerticalOptions="Start"
-             />
+            Clicked="OnScheduleButtonClicked" />
 
             </StackLayout>
 
