@@ -7,7 +7,7 @@
         <StackLayout>
             <StackLayout Orientation="Horizontal" Spacing="0"  Margin="20,50,10,10" >  
              <Button ContentLayout="Bottom,0" Image="tuuchi3" HorizontalOptions="Start" Clicked="Button2_Clicked"  />  
-            <Button Text="通知設定     >"  FontSize="30" Clicked="Button2_Clicked" VerticalOptions="Center" />
+            <Button Text="  通知設定     >"  FontSize="30" Clicked="Button2_Clicked" VerticalOptions="Center" />
            </StackLayout>
 
 

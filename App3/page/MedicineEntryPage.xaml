@@ -15,17 +15,17 @@
                 
                 <StackLayout>
                     <Label Text="飲む時間帯"/>
-                    <RadioButton Content="朝に服用する"/>
-                    <RadioButton Content="昼に服用する"/>
-                    <RadioButton Content="朝と昼に服用する"/>
+                    <RadioButton Content="朝"/>
+                    <RadioButton Content="昼"/>
+                    <RadioButton Content="朝と昼"/>
                     <Label x:Name="Jikantai_Entry"/>
 
                 </StackLayout>
 
                 <StackLayout>
                     <Label Text="飲むタイミング"/>
-                    <RadioButton Content="食前の時"/>
-                    <RadioButton Content="食後の時"/>
+                    <RadioButton Content="食前"/>
+                    <RadioButton Content="食後"/>
                     <Label x:Name="Timing_Entry"/>
 
                     <Label Text="生活習慣アンケートをもとに通知します。"/>
@@ -37,6 +37,52 @@
 
                 <Label Text="注意と副作用"/>
                 <Label x:Name="Url_Entry"/>
+
+                <StackLayout x:Name="stackLayout">
+                    
+
+                    <Label Text="1min後に通知させる"
+           TextColor="Red"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"/>
+
+                    <Button Text="通知を送信"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Clicked="oneButtonClicked" />
+                    
+
+                    <Label Text="2min後に通知させる"
+           TextColor="Red"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"/>
+
+                    <Button Text="通知を送信"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Clicked="twoButtonClicked" />
+
+                    <Label Text="3min後に通知させる"
+           TextColor="Red"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"/>
+
+                    <Button Text="通知を送信"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Clicked="threeeButtonClicked" />
+
+                    <Label Text="4min後に通知させる"
+           TextColor="Red"
+           HorizontalOptions="Center"
+           VerticalOptions="Start"/>
+
+                    <Button Text="通知を送信"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Clicked="fourButtonClicked" />
+
+                </StackLayout>
 
                 <Label Text="QRコードリーダーを起動"/>
 

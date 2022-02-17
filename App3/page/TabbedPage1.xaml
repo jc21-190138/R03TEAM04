@@ -13,7 +13,7 @@
         
     </NavigationPage>
 
-    <local1:MainPage3 Title="薬の登録"></local1:MainPage3>
+    <local1:MainPage3 Title="薬の登録QR"></local1:MainPage3>
     <local1:MainPage4 Title="服用履歴"></local1:MainPage4>
     <local1:MedicinePage Title="お薬手帳"></local1:MedicinePage>
     <local1:TestPage Title="テスト用"></local1:TestPage>

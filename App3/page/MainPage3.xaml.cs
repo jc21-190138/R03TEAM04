@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
@@ -23,17 +24,32 @@ namespace NavPageSample.page
         {
             InitializeComponent();
              BindingContext = this;
+
+         
     }
 
+      
+
+
+
+
+
+
+      
         private async void Button4_Clicked(object sender, EventArgs e)
         {
 
                 ZXing.Mobile.MobileBarcodeScanner scanner = new ZXing.Mobile.MobileBarcodeScanner();
 
                 ZXing.Result result = await scanner.Scan();
+            
+            
+
+
 
             if (result != null)
-            {
+            {   
+
                 msg.Text = result.Text;
 
                 Label label = new Label
@@ -42,6 +58,8 @@ namespace NavPageSample.page
                     TextType = TextType.Html
                 };
             }
+
+      
           
  
     }

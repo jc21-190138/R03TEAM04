@@ -17,6 +17,11 @@ namespace NavPageSample
             _database = new SQLiteAsyncConnection(dbPath);
             //パス.create_tableでUSERテーブルを作るメソッド
             _database.CreateTableAsync<User>().Wait();
+            _database.CreateTableAsync<Medicine>().Wait();
+            _database.CreateTableAsync<Allergie>().Wait();
+            _database.CreateTableAsync<TakeMedicine>().Wait();
+            _database.CreateTableAsync<TakeTime>().Wait();
+        
         }
 
         //USERテーブル関連
@@ -67,7 +72,6 @@ namespace NavPageSample
             return _database.Table<Medicine>().Where(i => i.Medicine_id == id).FirstOrDefaultAsync();
         }
 
-        //Medicineテーブルを保存とアプデ
         public Task<int> SaveMedicineAsync(Medicine medicine)
         {
             if(medicine.Medicine_id != 0)

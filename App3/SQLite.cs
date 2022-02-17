@@ -47,19 +47,18 @@ namespace NavPageSample
         //平日
         //朝食、出勤、昼食
         [NotNull]
-        public String  Day_breakfast { get; set; }
+        public string Day_breakfast { get; set; }
         [NotNull]
-        public String Clockin_time { get; set; }
+        public string Clockin_time { get; set; }
         [NotNull]
-        public String Day_lunch { get; set; }
+        public string Day_lunch { get; set; }
 
         //休日
         //朝食、昼食
         [NotNull]
-        public String End_breakfast { get; set; }
+        public string End_breakfast { get; set; }
         [NotNull]
-        public String End_lunch { get; set; }
-        public string jikantai { get; set; }
+        public string End_lunch { get; set; }
 
 
     }
@@ -121,7 +120,7 @@ namespace NavPageSample
         public int Medicine_id { get; set; }
         //薬を飲む時間
         [NotNull]
-        public String Medicine_time { get; set; }
+        public string Medicine_time { get; set; }
     }
 
 }
