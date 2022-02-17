@@ -8,6 +8,8 @@
 
         <StackLayout>
 
+
+
             <Label Text="テスト画面"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
@@ -33,30 +35,6 @@
                 <RadioButton Content="AB" />
                 <Label x:Name="BloodType_Entry"/>
             </StackLayout>
-
-            <StackLayout x:Name="stackLayout">
-                <Label Text="Click the button below to create a local notification."
-           TextColor="Red"
-           HorizontalOptions="Center"            VerticalOptions="Start" />
-
-                <Button Text="Create Notification"
-            HorizontalOptions="Center"
-            VerticalOptions="Start"
-            Clicked="OnNotifyButtonClicked" />
-
-                <Label Text="Click the button below to schedule a local notification for in 10 seconds time."
-           TextColor="Red"
-           HorizontalOptions="Center"
-           VerticalOptions="Start"/>
-
-                <Button Text="Create Notification"
-            HorizontalOptions="Center"
-            VerticalOptions="Start"
-            Clicked="OnScheduleButtonClicked" />
-
-            </StackLayout>
-
-
 
             <Entry x:Name="Height_Entry"
     Placeholder="身長を入力"/>
@@ -104,25 +82,14 @@
                         <ViewCell>
                             <StackLayout Orientation="Horizontal">
                                 <StackLayout>
-                                    <Label Text="{Binding Date_of_birth}"/>
-                                    <Label Text="{Binding Sex}"/>
-                                    <Label Text="{Binding BoodType}"/>
-                                    <Label Text="{Binding Height}"/>
-                                    <Label Text="{Binding Weight}"/>
-                                    <Label Text="{Binding Tabako}"/>
-                                    <Label Text="{Binding Drinking}"/>
-                                    <Label Text="{Binding Taking_history}"/>
-                                    <Label Text="{Binding Day_breakfast}"/>
-                                    <Label Text="{Binding Clockin_time}"/>
-                                    <Label Text="{Binding Day_lunch}"/>
-                                    <Label Text="{Binding End_breakfast}"/>
-                                    <Label Text="{Binding End_lunch}"/>
+                                    <Label Text="{Binding Day_Breakfast_Entry}"/>
                                 </StackLayout>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView >
+
         </StackLayout>
     </ScrollView>
 

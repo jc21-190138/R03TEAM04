@@ -34,7 +34,7 @@ namespace NavPageSample.page
                 //Userテーブルにデータを入力してもらう。全部STRINGなので変換してDBへ
                 await App.Database.SaveUserAsync(new User
                 {
-                    
+
                     Date_of_birth = Birth_Entry.ToString(),
                     Sex = Sex_Entry.Text,
                     BoodType = BloodType_Entry.Text,
@@ -99,7 +99,7 @@ namespace NavPageSample.page
 
                         //平日の
                         enquete.Day_breakfast = Day_Breakfast_Entry.ToString();
-                        enquete.Day_lunch =Day_lunch_Entry.ToString();
+                        enquete.Day_lunch = Day_lunch_Entry.ToString();
                         enquete.Clockin_time = Clockin_Time_Entry.ToString();
 
                         //休日の
